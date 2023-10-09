@@ -1,6 +1,8 @@
 # Joint epigenome profiling reveals cell-type-specific gene regulatory programs in human cortical organoids
 
-*<h3>Florian Noack1,*, Silvia Vangelisti1,*, Nora Ditzer3, Faye Chong1, Mareike Albert3, Boyan Bonev1,2#*
+<h3><small>Florian Noack<sup>1</sup>,*, Silvia Vangelisti<sup>1</sup>,*, Nora Ditzer<sup>3</sup>, Faye Chong<sup>1</sup>, Mareike Albert<sup>3</sup>, Boyan Bonev<sup>1,2</sup></small></h3>
+
+
 
 Affiliations
 1. Helmholtz Pioneer Campus, Helmholtz Zentrum München, 85764 Neuherberg, Germany
