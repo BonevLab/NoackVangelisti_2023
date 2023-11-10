@@ -11,7 +11,7 @@ picard="/home/hpc/bonev/software/Taurus-MH"
 bismark="/home/hpc/common/bin"
 bowtie="/home/hpc/common/bin"
 python="/home/hpc/bonev/software/miniconda3/envs/taurus/bin"
-TAURUS_loc="/home/hpc/bonev/software/Taurus-MH"
+TAURUS_loc="scripts/mapping"
 juicer_loc="/home/hpc/bonev/juicer"
 trim_loc="/home/hpc/bonev/software/miniconda3/envs/taurus/bin"
 
@@ -90,8 +90,8 @@ rfh.write("bismark="+bismark\
 +"\n${bismark}/bismark --parallel "+Threads+" -un --pbat --bowtie2 ${REF} ${R2} &"
 +"\nwait"\
 +"\n"\
-+"\n${python}/python ${TAURUS_loc}/3piece_read_split_R1.py ${R1}_unmapped_reads.fq.gz "+S1+" "+S2+" &"\
-+"\n${python}/python ${TAURUS_loc}/3piece_read_split_R2.py ${R2}_unmapped_reads.fq.gz "+S1+" "+S2+" &"\
++"\n${python}/python ${TAURUS_loc}/ram/3piece_read_split_R1.py ${R1}_unmapped_reads.fq.gz "+S1+" "+S2+" &"\
++"\n${python}/python ${TAURUS_loc}/ram/3piece_read_split_R2.py ${R2}_unmapped_reads.fq.gz "+S1+" "+S2+" &"\
 +"\nwait"\
 +"\n"
 +"\n${bismark}/bismark --parallel "+Threads+" --bowtie2 ${REF} ${R1}_unmapped_reads.fq.gz_r1.fq &"\
