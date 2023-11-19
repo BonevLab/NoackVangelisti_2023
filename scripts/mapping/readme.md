@@ -1,7 +1,7 @@
 
 # Mapping for 3DRAM-seq data 
 
-#### scripts are modified from TAURUS Lee et al., Nat Methods 2019 
+####### Scripts are modified from TAURUS Lee et al., Nat Methods 2019 
 
 * General steps
 1. Clone scripts of TAURUS-MH (https://github.com/dixonlab/Taurus-MH) to project folder and create conda environment
