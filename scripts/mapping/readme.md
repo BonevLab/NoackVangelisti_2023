@@ -4,7 +4,7 @@
 ##### Scripts are modified from TAURUS Lee et al., Nat Methods 2019 
 
 * General steps
-1. Clone scripts of TAURUS-MH (https://github.com/dixonlab/Taurus-MH) to project folder and create conda environment
+1. Clone scripts to desired project folder and create conda environment
 2. Install Bismark, Bowtie1, PICARD, python and pysam (python module), Juicer 
 3. Modify paths in map_3DRAM.py. NOTE: TAURUS_loc should specify the overarching directory that contains the ram/ and map_3DRAM.py
 4. Index genome with Bismark, provide path to reference in <genome_folder> (https://felixkrueger.github.io/Bismark/bismark/genome_preparation/) 
